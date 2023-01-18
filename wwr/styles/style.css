@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -16,12 +20,17 @@ nav a:hover {
 
 .home-title {
     color: white;
+    margin-top: 10px;
 }
 
 .book, .join {
-    background-color: #2b9130;
+    background-color: #145bff;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, join:hover {
@@ -34,11 +43,24 @@ nav a:hover {
 }
 
 #hero-img {
-    width:100%;
+    width: 100%;
+}
+
+.card-img {
+    border: 10px solid black
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 .msg {
     background-color: #2b9130;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -47,6 +69,8 @@ nav a:hover {
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .button-box {
@@ -57,8 +81,16 @@ main section {
     text-align: center;
 }
 
+h2 {
+    margin: 0;
+}
+
 h4 {
     color:white;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
@@ -68,6 +100,9 @@ h4 {
 
 body {
     background-color: #62b6cb;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .icon, .logo{
@@ -76,11 +111,13 @@ body {
 
 header {
     background-color: #145bff;
+    font-family: 'Lora', serif;
 }
 
 footer {
     background-color: #145bff;
     color: white;
+    padding: 25px 50px;
 }
 
 footer p {
@@ -91,12 +128,26 @@ footer p {
 footer a {
     color: white;
     text-decoration: none;
+    margin-top: 200px;
 }
 
 footer a:hover {
     color: white;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 a:hover {
     text-decoration: underline;
+}
+
+.home-title {
+    font-family: 'Lora', serif;
+    font-size: 2em
+}
+
+#logo-link {
+    padding-top: 5px;
 }
