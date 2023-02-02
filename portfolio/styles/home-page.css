@@ -1,0 +1,18 @@
+header {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px;
+    background-color: #1d2dbf;
+}
+
+.nav-title {
+    grid-row: 1/4;
+    grid-column: 2/4;
+    font-size: 70px;
+}
+
+#logo-image {
+    grid-column:4/5;
+    border-radius: 50%;
+}
+    
