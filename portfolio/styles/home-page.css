@@ -6,9 +6,6 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
-
 header {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
