@@ -6,27 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Resume | Home</title>
-    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <link type="text/css" rel="stylesheet" href="styles/resume.css">
   </head>
 
     <body>
         <header>
-            <h1>My Portfolio</h1>
+            <h1 class="nav-bar">My Portfolio</h1>
+            <div class="nav-bar">
             <nav>
                 <a href="index.html">Home</a>
                 <a href="resume.html">Resume</a>
                 <a href="projects.html">Portfolio</a>
             </nav>
-            <img src="images/logo.png" alt="Logo">
+            </div>
+            <img id="logo-image" src="images/logo.png" alt="Logo">
         </header>
         <main>
-            <div class="sidebar"></div>
+            <div class="left-sidebar"></div>
 
-            <section class="personal-info">
-                <div id="profile-img">
-                    <img src="images/pofile.jpg" alt="Profile picture">
-                </div>
-                <div id="upper-right">
+            <section class="top-info">
+                <!--<div id="plogo-img">
+                    <img id="python" src="images/Python-logo-notext.svg.png" alt="Language Logo">
+                </div> -->
+
+                <div class="text-box">
                     <p>
                         I have developed a wide variety of industry relevant skills to show myself 
                         as a valuable asset. I have a strong understanding of a multitude of programming 
@@ -38,10 +41,10 @@
             </section>
 
             <div class="desk-banner">
-                <img src="images/Gaming Table.jpg" alt="Computer desk with monitors">
+                <img id="desk" src="images/code_banner.png" alt="Computer desk with monitors">
             </div>
 
-            <section class="personal-info">
+            <section class="text-box">
                 <div id="bottom-left">
                     <p>
                         I am an extremely efficient worker which directly benefits my programming 
@@ -57,6 +60,8 @@
                     </p>
                 </div>
             </section>
+
+            <div class="right-sidebar"></div>
         </main>
     <footer>
         <a 
