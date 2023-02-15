@@ -59,6 +59,10 @@ body {
     grid-template-rows: 500px 500px 500px;
 }
 
+h2 {
+    text-align: center;
+}
+
 .text-box {
     margin: 20px;
 }
